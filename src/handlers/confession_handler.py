@@ -938,7 +938,7 @@ class ConfessionHandler:
             return
 
         user_votes[user_id] = option_index
-        self._save_polls()
+        self._save_data()
 
         # recompute counts
         counts = [0] * len(options)
